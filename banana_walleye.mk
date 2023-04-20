@@ -5,7 +5,7 @@ $(call inherit-product, vendor/banana/config/common.mk)
 # Supported Device Flags. (Features)
 BANANA_BUILD_TYPE := OFFICIAL
 BANANA_MAINTAINER := @asriadirahim
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 TARGET_ENABLE_BLUR := true
 TARGET_EXCLUDE_MATLOG := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
