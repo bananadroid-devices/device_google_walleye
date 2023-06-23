@@ -39,3 +39,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Thermal HAL
 PRODUCT_COPY_FILES += \
     device/google/walleye/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
