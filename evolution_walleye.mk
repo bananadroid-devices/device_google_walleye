@@ -24,7 +24,9 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 # EvolutionX Specific Flags
 EVO_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_INCLUDE_GRAMOPHONE := false
+TARGET_BUILD_VIMUSIC := true
 TARGET_IS_PIXEL := true
 TARGET_SHIPS_FIRMWARE := true
 
