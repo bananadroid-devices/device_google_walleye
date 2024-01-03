@@ -45,7 +45,7 @@ TARGET_RECOVERY_UI_LIB := \
     libfstab
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_muskie_defconfig
+TARGET_KERNEL_CONFIG := eucalyptus_walleye_defconfig
 
 # Board uses A/B OTA.
 AB_OTA_UPDATER := true
